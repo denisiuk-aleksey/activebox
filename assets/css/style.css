@@ -5,8 +5,7 @@ body{
   box-sizing: border-box;
   font-family: sans-serif;
   min-width: 100ww  ;
-  background-color: wheat;
-  
+  background-color: rgb(255, 245, 227);
 }
 
 .header-of-site{
@@ -63,7 +62,6 @@ body{
 
 .art-adv{
   margin-bottom: 40px;
-
 }
 
 .block-advanrages{
@@ -74,3 +72,8 @@ body{
   background-color: white;
 }
 
+.art-adv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
